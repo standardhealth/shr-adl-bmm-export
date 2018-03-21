@@ -1,0 +1,25 @@
+{
+  "name": "shr-adl-exporter",
+  "version": "1.0.0",
+  "description": "Translates and exports ADL from shr-CIMCORE source files",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "shr",
+    "adl",
+    "cimcore"
+  ],
+  "author": "Abhijay Bhatnagar",
+  "license": "Apache-2.0",
+  "devDependecies": {
+    "bunyan": "^1.8.9",
+    "chai": "^3.5.0",
+    "eslint": "^3.6.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  }
+}
