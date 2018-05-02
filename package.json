@@ -1,10 +1,12 @@
 {
   "name": "shr-adl-exporter",
   "version": "1.0.0",
-  "description": "Translates and exports ADL from shr-CIMCORE source files",
+  "description": "Translates and Exports SHR Data Elements from SHR models to ADL and BMM serializations",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix"
   },
   "keywords": [
     "shr",
@@ -13,13 +15,15 @@
   ],
   "author": "Abhijay Bhatnagar",
   "license": "Apache-2.0",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "bunyan": "^1.8.12",
+    "dedent-js": "^1.0.1"
+  },
   "devDependecies": {
     "bunyan": "^1.8.9",
     "chai": "^3.5.0",
-    "eslint": "^3.6.1",
+    "eslint": "^4.19.1",
     "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "bunyan": "^1.8.12"
   }
 }
