@@ -1,1 +1,1 @@
-module.exports = require('./lib/adl/adl-export');
+module.exports = require('./lib/adl-bmm-export');
