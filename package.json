@@ -1,6 +1,6 @@
 {
   "name": "shr-adl-bmm-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translates and Exports SHR Data Elements from SHR models to ADL and BMM serializations",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,9 @@
   "author": "Abhijay Bhatnagar",
   "license": "Apache-2.0",
   "dependencies": {
-    "eslint": "^4.19.1",
     "bunyan": "^1.8.12",
-    "dedent-js": "^1.0.1"
+    "dedent-js": "^1.0.1",
+    "eslint": "^4.19.1"
   },
   "devDependecies": {
     "bunyan": "^1.8.9",
